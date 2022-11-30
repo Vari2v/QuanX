@@ -10,21 +10,10 @@ HOST,sugar.zhihu.com,reject
 USER-AGENT,AVOS*,REJECT
 
 # 小米
-HOST,data.mistat.xiaomi.com, reject
-HOST,tracking.intl.miui.com, reject
+
 
 # QQ音乐广告
-HOST,tmeadcomm.y.qq.com, reject
-HOST,ad.tencentmusic.com, reject
-HOST,adstats.tencentmusic.com, reject
-HOST,tmead.y.qq.com, reject
-HOST-SUFFIX,rqd.qq.com, reject
-HOST-SUFFIX,wup.imtt.qq.com, reject
-HOST-SUFFIX,gdt.qq.com, reject
-HOST-SUFFIX,android.rqd.qq.com, reject
-HOST-SUFFIX,e.qq.com, reject
-HOST-SUFFIX,beacon.qq.com, reject
-HOST-SUFFIX,v.gdt.qq.com, reject
+
 
 # 高德
 HOST-SUFFIX,adiu.amap.com,REJECT
@@ -113,12 +102,7 @@ IP-CIDR,101.227.200.28/32, reject
 IP-CIDR,124.192.153.42/32, reject
 
 # > 字节跳动
-HOST-SUFFIX,pangolin-sdk-toutiao.com, reject
-HOST-SUFFIX,pangolin-sdk-toutiao-b.com, reject
-HOST-SUFFIX,api-access.pangolin-sdk-toutiao-b.com, reject
-HOST,ad.toutiao.com, reject
-HOST,dsp.toutiao.com, reject
-host-keyword,pangolin.snssdk.com, reject
+
 
 # > 谷歌
 HOST-SUFFIX,google-analytics.com, reject
@@ -146,20 +130,10 @@ HOST-SUFFIX,www.google-analytics.com, reject
 HOST,ads.youtube.com, reject
 
 # > 微软
-HOST-SUFFIX,ads.msn.com, reject
-HOST-SUFFIX,ads1.msn.com, reject
-HOST-SUFFIX,ads2.msn.com, reject
-HOST-SUFFIX,bingads.microsoft.com, reject
-HOST-SUFFIX,rads.msn.com, reject
-HOST,mobileads.msn.com, reject
+
 
 # > 腾讯视频
-host-suffix, tetrack.qq.com, reject
-host-suffix, tpns.tencent.com, reject
-host-suffix, api.poll.video.qq.com, reject
-host-suffix, static-res.qq.com, reject
-host-suffix, stat.tpns.tencent.com, reject
-host, h.trace.qq.com, reject
+
 
 # > 爱奇艺
 host, cr-status.iqiyi.com, reject
@@ -385,14 +359,4 @@ HOST-SUFFIX,adashbc.m.taobao.com, reject
 HOST, ad.12306.cn, REJECT
 
 # > 威锋
-host-keyword, p3-be-pack-sign.pglstatp-toutiao.com, reject
-host-keyword, sf3-be-pack.pglstatp-toutiao.com, reject
-host-keyword,sf1-be-pack.pglstatp-toutiao.com, reject
-host-keyword,sf1-fe-tos.pglstatp-toutiao.com, reject
-host-keyword,sf1-ttcdn-tos.pstatp.com, reject
-host-keyword,sf3-fe-tos.pglstatp-toutiao.com, reject
-host-keyword,sf3-ttcdn-tos.pstatp.com, reject
-host-keyword,sf6-fe-tos.pglstatp-toutiao.com, reject
-host-keyword,s3-fe-scm.pglstatp-toutiao.com, reject
-host-keyword,sf6-be-pack.pglstatp-toutiao.com, reject
-host-keyword,p9-be-pack-sign.pglstatp-toutiao.com, reject
+
